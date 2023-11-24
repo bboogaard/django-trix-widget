@@ -16,7 +16,8 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "django.contrib.admin",
     "django.contrib.messages",
-    "trix_widget"
+    "trix_widget",
+    "trix_widget.tests.testapp"
 ]
 
 MIDDLEWARE = [

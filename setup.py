@@ -3,20 +3,20 @@ from trix_widget.version import Version
 
 
 setup(name='django-trix-widget',
-     version=Version('1.0.1').number,
+     version=Version('1.0.3').number,
      description='Trix widget for Django',
      long_description=open('README.md').read().strip(),
      long_description_content_type="text/markdown",
      author='Bram Boogaard',
      author_email='padawan@hetnet.nl',
      url='https://github.com/bboogaard/django-trix-widget',
-     packages=find_namespace_packages(include=['trix_widget', 'trix_widget.static.trix']),
+     packages=find_namespace_packages(include=['trix_widget', 'trix_widget.static.trix', 'trix_widget.templates']),
      include_package_data=True,
      install_requires=[
          'pytest',
          'pytest-cov',
          'pytest-django==4.5.2',
-         'django==4.2.7',
+         'django==3.2.23',
          'pyquery==2.0.0',
          'bleach==6.1.0'
      ],
