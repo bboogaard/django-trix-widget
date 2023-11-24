@@ -1,0 +1,2 @@
+include trix_widget/static/trix/*.css
+include trix_widget/static/trix/*.js
