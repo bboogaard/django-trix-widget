@@ -3,7 +3,7 @@ from trix_widget.version import Version
 
 
 setup(name='django-trix-widget',
-     version=Version('1.0.3').number,
+     version=Version('1.0.4').number,
      description='Trix widget for Django',
      long_description=open('README.md').read().strip(),
      long_description_content_type="text/markdown",
