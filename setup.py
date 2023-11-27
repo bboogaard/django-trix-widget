@@ -15,10 +15,10 @@ setup(name='django-trix-widget',
      install_requires=[
          'pytest',
          'pytest-cov',
-         'pytest-django==4.5.2',
-         'django==3.2.23',
-         'pyquery==2.0.0',
-         'bleach==6.1.0'
+         'pytest-django~=4.5.2',
+         'django~=3.2.23',
+         'pyquery~=2.0.0',
+         'bleach~=6.1.0'
      ],
      license='MIT License',
      zip_safe=False,

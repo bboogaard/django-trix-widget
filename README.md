@@ -10,7 +10,7 @@ Integrate Trix editor with Django forms framework.
 
 Supports: Python 3.10.
 
-Supports Django Versions: 4.2.7
+Supports Django Versions: 3.2
 
 ## Installation
 

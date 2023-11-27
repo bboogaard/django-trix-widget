@@ -14,4 +14,4 @@ class TrixWidget(forms.Widget):
 
     def value_from_datadict(self, data, files, name):
         value = super().value_from_datadict(data, files, name)
-        return bleach.clean(value, tags={'strong', 'em', 'del', 'ul', 'li', 'br'}, strip=True)
+        return bleach.clean(value, tags={'strong', 'em', 'del', 'ul', 'li', 'br', 'a'}, strip=True)
